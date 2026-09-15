@@ -11,7 +11,7 @@
         body {
             margin: 0;
             background: #f7f4ef;
-            color: #222;
+            color: #3f472f;
             font-family: Georgia, serif;
         }
 
@@ -20,22 +20,29 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            border-bottom: 1px solid #ddd8cf;
+            background: #f7f4ef;
+            border-bottom: 1px solid #c9cdb9;
         }
 
         .logo {
             font-size: 28px;
             font-weight: bold;
             letter-spacing: 4px;
+            color: #3f472f;
         }
 
         nav a {
             margin-left: 28px;
             text-decoration: none;
-            color: #222;
+            color: #5d6845;
             font-family: Arial, sans-serif;
             font-size: 13px;
             letter-spacing: 1px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #7b8661;
         }
 
         .hero {
@@ -53,23 +60,30 @@
             margin: 0;
             letter-spacing: 8px;
             font-weight: normal;
+            color: #3f472f;
         }
 
         .hero p {
             font-size: 22px;
             margin: 25px 0;
             font-style: italic;
+            color: #6f7955;
         }
 
         .button {
             display: inline-block;
             padding: 15px 32px;
-            background: #222;
-            color: white;
+            background: #596344;
+            color: #f7f4ef;
             text-decoration: none;
             font-family: Arial, sans-serif;
             font-size: 13px;
             letter-spacing: 1px;
+            font-weight: bold;
+        }
+
+        .button:hover {
+            background: #737e59;
         }
 
         section {
@@ -77,14 +91,16 @@
         }
 
         .about {
-            background: #e9e4da;
+            background: #e4e5d6;
             text-align: center;
         }
 
         .about h2,
-        .work h2 {
+        .work h2,
+        .merch h2 {
             font-size: 42px;
             font-weight: normal;
+            color: #3f472f;
         }
 
         .about p {
@@ -93,10 +109,12 @@
             font-family: Arial, sans-serif;
             line-height: 1.8;
             font-size: 17px;
+            color: #596344;
         }
 
         .work {
             text-align: center;
+            background: #f7f4ef;
         }
 
         .work-grid {
@@ -108,27 +126,42 @@
         }
 
         .card {
-            background: white;
+            background: #d9ddc8;
             padding: 35px;
             width: 280px;
             min-height: 180px;
             text-align: left;
+            border: 1px solid #b8bea1;
         }
 
         .card h3 {
             font-size: 22px;
             font-weight: normal;
+            color: #4d5838;
         }
 
         .card p {
             font-family: Arial, sans-serif;
             line-height: 1.6;
             font-size: 14px;
+            color: #66704d;
+        }
+
+        .merch {
+            background: #cdd3b8;
+            text-align: center;
+        }
+
+        .merch-intro {
+            font-family: Arial, sans-serif;
+            line-height: 1.7;
+            color: #596344;
+            font-size: 17px;
         }
 
         footer {
-            background: #222;
-            color: white;
+            background: #3f472f;
+            color: #f7f4ef;
             padding: 45px;
             text-align: center;
             font-family: Arial, sans-serif;
@@ -159,7 +192,8 @@
     <h2>HEALING BEYOND BORDERS.</h2>
 
     <p>
-        KHAIR. is a youth led humanitarian foundation, working to support all our friends in need, all over the world ♡.
+        KHAIR. is a youth led humanitarian foundation, working to support
+        all our friends in need, all over the world ♡.
     </p>
 </section>
 
@@ -179,7 +213,7 @@
         <div class="card">
             <h3>Health ♡</h3>
             <p>
-                Helping expand access to physical and mental health 
+                Helping expand access to physical and mental health
                 all over the earth.
             </p>
         </div>
@@ -194,27 +228,33 @@
 
     </div>
 </section>
+
 <section class="merch" id="merch">
 
     <h2>THE KHAIR COLLECTION.</h2>
 
     <p class="merch-intro">
         Wear good. ♡ Spread good.
- ...coming soon.
+        <br>
+        ...coming soon.
     </p>
 
-    <!-- Your products will go here -->
-    <section id="donate" class="about">
+</section>
+
+<section id="donate" class="about">
+
     <h2>MAKE A DIFFERENCE.</h2>
 
     <p>
         Every contribution, no matter how small can help support humanitarian
-        work where it is needed most. Donate today to help save friends all over the world ♡
+        work where it is needed most. Donate today to help save friends all
+        over the world ♡
     </p>
 
     <br>
 
     <a class="button" href="#">DONATE</a>
+
 </section>
 
 <footer>

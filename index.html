@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>KHAIR. — Heal Our World</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            background: #f7f4ef;
+            color: #222;
+            font-family: Georgia, serif;
+        }
+
+        header {
+            padding: 28px 6%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #ddd8cf;
+        }
+
+        .logo {
+            font-size: 28px;
+            font-weight: bold;
+            letter-spacing: 4px;
+        }
+
+        nav a {
+            margin-left: 28px;
+            text-decoration: none;
+            color: #222;
+            font-family: Arial, sans-serif;
+            font-size: 13px;
+            letter-spacing: 1px;
+        }
+
+        .hero {
+            min-height: 75vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        .hero h1 {
+            font-size: clamp(50px, 9vw, 110px);
+            margin: 0;
+            letter-spacing: 8px;
+            font-weight: normal;
+        }
+
+        .hero p {
+            font-size: 22px;
+            margin: 25px 0;
+            font-style: italic;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 15px 32px;
+            background: #222;
+            color: white;
+            text-decoration: none;
+            font-family: Arial, sans-serif;
+            font-size: 13px;
+            letter-spacing: 1px;
+        }
+
+        section {
+            padding: 100px 10%;
+        }
+
+        .about {
+            background: #e9e4da;
+            text-align: center;
+        }
+
+        .about h2,
+        .work h2 {
+            font-size: 42px;
+            font-weight: normal;
+        }
+
+        .about p {
+            max-width: 700px;
+            margin: auto;
+            font-family: Arial, sans-serif;
+            line-height: 1.8;
+            font-size: 17px;
+        }
+
+        .work {
+            text-align: center;
+        }
+
+        .work-grid {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 45px;
+        }
+
+        .card {
+            background: white;
+            padding: 35px;
+            width: 280px;
+            min-height: 180px;
+            text-align: left;
+        }
+
+        .card h3 {
+            font-size: 22px;
+            font-weight: normal;
+        }
+
+        .card p {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            font-size: 14px;
+        }
+
+        footer {
+            background: #222;
+            color: white;
+            padding: 45px;
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">KHAIR.</div>
+
+    <nav>
+        <a href="#about">ABOUT</a>
+        <a href="#work">OUR WORK</a>
+        <a href="#donate">DONATE</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1>KHAIR.</h1>
+    <p>Heal Our World.</p>
+    <a class="button" href="#donate">SUPPORT KHAIR.</a>
+</section>
+
+<section class="about" id="about">
+    <h2>GOOD WITHOUT BORDERS.</h2>
+
+    <p>
+        KHAIR. is a youth led humanitarian foundation, working to support all our friends in need, all over the world ♡.
+    </p>
+</section>
+
+<section class="work" id="work">
+    <h2>OUR WORK.</h2>
+
+    <div class="work-grid">
+
+        <div class="card">
+            <h3>Humanitarian Aid ☆</h3>
+            <p>
+                Supporting trusted organizations providing
+                essential aid to communities in crisis.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Health ♡</h3>
+            <p>
+                Helping expand access to physical and mental health 
+                all over the earth.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Global Relief ☼</h3>
+            <p>
+                Raising awareness and funds for urgent
+                humanitarian needs around the world.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<section id="donate" class="about">
+    <h2>MAKE A DIFFERENCE.</h2>
+
+    <p>
+        Every contribution, no matter how small can help support humanitarian
+        work where it is needed most. Donate today to help save friends all over the world ♡
+    </p>
+
+    <br>
+
+    <a class="button" href="#">DONATE</a>
+</section>
+
+<footer>
+    KHAIR. — Heal our world.
+</footer>
+
+</body>
+</html>
